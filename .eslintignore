@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+/dist
+
+#ide
+.idea
+/.vscode/*
+
+#webpack
+stats.json
+
+npm-debug.log*
