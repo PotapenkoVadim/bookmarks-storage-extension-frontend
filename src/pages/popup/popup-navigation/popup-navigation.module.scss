@@ -1,0 +1,8 @@
+@import '../../../styles/variables.scss';
+
+.popupnavpage { padding: 15px 10px;
+  &-navigation { list-style-type: none; }
+  &-item { cursor: pointer; font-size: 15px; font-weight: bold; color: $black;
+    &:hover { text-decoration: underline; }
+  }
+}
