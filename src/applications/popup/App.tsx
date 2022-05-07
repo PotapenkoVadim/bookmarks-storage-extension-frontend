@@ -4,8 +4,8 @@ import './App.scss';
 
 export default function App(): ReactElement {
   return (
-    <main className='app'>
-      <h1 className='app-title'>ChromeExtension App</h1>
+    <main className="app">
+      <h1 className="app-title">ChromeExtension App</h1>
 
       <PopupNavigationPage />
     </main>

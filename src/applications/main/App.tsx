@@ -7,9 +7,9 @@ import './App.scss';
 export default function App(): ReactElement {
   return (
     <HashRouter>
-      <main className='app'>
-        <h1 className='app-title'>ChromeExtension App</h1>
-        
+      <main className="app">
+        <h1 className="app-title">ChromeExtension App</h1>
+
         <Routes>
           <Route path={configuration.routes.pages.home} element={<HomePage />} />
         </Routes>

@@ -9,4 +9,4 @@ export const configuration = {
       home: 'home'
     }
   }
-}
+};

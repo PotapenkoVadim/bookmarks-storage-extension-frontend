@@ -11,9 +11,7 @@ export default function PopupNavigationPage(): ReactElement {
     <div className={styles['popupnavpage']}>
       <ul className={styles['popupnavpage-navigation']}>
         <li className={styles['popupnavpage-item']}>
-          <a onClick={() => openHomePage()}>
-            Go to Home Page
-          </a>
+          <a onClick={() => openHomePage()}>Go to Home Page</a>
         </li>
       </ul>
     </div>
