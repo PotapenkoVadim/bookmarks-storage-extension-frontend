@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import Navigation from '../../../components/navigation/navigation';
-import { NavigationDirection } from '../../../enums/Navigation';
+import { NavigationDirection } from '../../../enums';
 import styles from './popup-navigation.module.scss';
 
 export default function PopupNavigationPage(): ReactElement {

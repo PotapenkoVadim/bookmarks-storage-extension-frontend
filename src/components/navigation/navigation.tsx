@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react';
-import { NavigationDirection } from '../../enums/Navigation';
+import { NavigationDirection } from '../../enums';
 import { AppNavigationService } from '../../services';
 import styles from './navigation.module.scss';
 import NavigationItem from './_item';
