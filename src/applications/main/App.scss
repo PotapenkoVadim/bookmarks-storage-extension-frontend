@@ -1,5 +1,5 @@
 @import '../../styles/main.scss';
 
-.app {
+.app { max-width: 1220px; margin: 0 auto;
   &-title { text-align: center; padding: 18px; color: $black; }
 }

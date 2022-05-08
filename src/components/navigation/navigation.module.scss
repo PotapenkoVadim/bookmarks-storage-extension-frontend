@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.navigation {
+  &-list { list-style-type: none; display: flex; gap: 17px;
+    &_row { flex-direction: row; } 
+    &_col { flex-direction: column; } 
+  }
+
+  &-item { cursor: pointer; font-size: 18px; font-family: ui-monospace;
+    &:hover { text-decoration: underline; }
+  }
+}

@@ -1,7 +1,7 @@
 import packagejson from '../../package.json';
 
 export const configuration = {
-  appName: packagejson.name,
+  appName: 'BookmarksStorage',
   version: packagejson.version,
   routes: {
     baseUrl: '/main.html',
