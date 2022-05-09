@@ -16,4 +16,16 @@ export class AppNavigationService {
 
     return AppNavigationService.openExtensionTab(homePage);
   }
+
+  public static openAboutPage(): Promise<Tab> {
+    const aboutPage = configuration.routes.pages.about;
+
+    return AppNavigationService.openExtensionTab(aboutPage);
+  }
+
+  public static openFAQPage(): Promise<Tab> {
+    const FAQPage = configuration.routes.pages.faq;
+
+    return AppNavigationService.openExtensionTab(FAQPage);
+  }
 }

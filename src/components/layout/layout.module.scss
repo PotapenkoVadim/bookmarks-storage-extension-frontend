@@ -1,0 +1,6 @@
+@import '../../styles/variables.scss';
+
+.layout { box-sizing: border-box; padding: 65px 0;
+  &-header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 25px; }
+  &-title { color: $main; }
+}

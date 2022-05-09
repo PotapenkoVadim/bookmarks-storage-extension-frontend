@@ -6,7 +6,9 @@ export const configuration = {
   routes: {
     baseUrl: '/main.html',
     pages: {
-      home: 'home'
+      home: 'home',
+      about: 'about',
+      faq: 'faq'
     }
   }
 };
